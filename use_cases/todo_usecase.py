@@ -22,6 +22,6 @@ class TodoUseCase:
       self.repository.save_tasks(tasks)
       return removed_task
 
-  def get_taks(self) -> List[Task]:
+  def get_tasks(self) -> List[Task]:
     """ Get Tasks """
     return self.repository.load_tasks()
